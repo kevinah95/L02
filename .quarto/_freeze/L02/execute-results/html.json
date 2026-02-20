@@ -1,0 +1,12 @@
+{
+  "hash": "0f877e10915158a3723dd156afba4999",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Lección 02\nsubtitle: Estructuras secuenciales\nformat: \n    clean-revealjs:\n        incremental: true\nauthor:\n  - name: Kevin Hernández Rostrán\n    email: khernandez@ucenfotec.ac.cr\n    affiliations: Universidad Cenfotec\nlang: es\ndate: 2024-03-05\ntitle-slide-attributes:\n    data-background-image: img/bg_title.svg\n    data-background-size: cover\n    data-background-opacity: \"1\"\ncode-line-numbers: true\n---\n\n## Contenido {background-image=\"img/bg_default_slide.svg\" background-size=\"cover\"}\n\n-   Entradas, variables intermedias y salidas\n-   Estructuras secuenciales.\n-   Casos de prueba\n\n## Herramientas 🧰 {background-image=\"img/bg_default_slide.svg\" background-size=\"cover\"}\n\n-   GitHub 👾 *p. ej.* [Art Institute of Chicago](https://github.com/art-institute-of-chicago)\n-   VSCode 👨🏻‍💻 [enlace](https://code.visualstudio.com/)\n-   Codespaces (GitHub + VSCode) 🚀 [enlace](https://github.com/features/codespaces)\n\n## Mi primer programa {background-image=\"img/bg_default_slide.svg\" background-size=\"cover\"}\n\n-   ¿Cómo lo ejecuto?\n\n``` python\nprint(\"Hola Mundo\")\n```\n\n## Variables {background-image=\"img/bg_default_slide.svg\" background-size=\"cover\"}\n\n-   ¿Qué son las variables?\n-   Una variable es una colección nombrada de una o más posiciones de memoria de un ordenador tratada como un único contenedor. **Su contenido puede variar en función de la operación del usuario.**\n-   Proporcionan una forma de etiquetar los datos con un **nombre descriptivo**, para que nuestros programas puedan ser entendidos más claramente por el lector y por nosotros mismos.\n-   Es útil pensar en las *variables* como **contenedores** que almacenan información.\n\n## Variables 🐍 {background-image=\"img/bg_default_slide.svg\" background-size=\"cover\"}\n\n::: {#a4880c75 .cell execution_count=1}\n\n::: {.cell-output .cell-output-stdout}\n```\nHola Mundo\n20\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "L02_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

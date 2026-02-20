@@ -1,0 +1,93 @@
+---
+title: Lección 02
+subtitle: Estructuras secuenciales
+format: 
+    clean-revealjs:
+        incremental: true
+        background-image: img/bg_default_slide.svg
+        background-size: contain
+author:
+  - name: Kevin Hernández Rostrán
+    email: khernandez@ucenfotec.ac.cr
+    affiliations: Universidad Cenfotec
+lang: es
+date: 2024-03-05
+title-slide-attributes:
+    data-background-image: img/bg_title.svg
+    data-background-size: cover
+    data-background-opacity: "1"
+code-line-numbers: true
+---
+
+## Contenido
+
+-   Entradas, variables intermedias y salidas
+-   Estructuras secuenciales.
+-   Casos de prueba
+
+## Herramientas 🧰
+
+-   GitHub 👾 *p. ej.* [Art Institute of Chicago](https://github.com/art-institute-of-chicago)
+-   VSCode 👨🏻‍💻 [enlace](https://code.visualstudio.com/)
+-   Codespaces (GitHub + VSCode) 🚀 [enlace](https://github.com/features/codespaces)
+
+## Mi primer programa
+
+-   ¿Cómo lo ejecuto?
+
+``` python
+print("Hola Mundo")
+```
+
+## Variables
+
+-   ¿Qué son las variables?
+-   Una variable es una colección nombrada de una o más posiciones de memoria de un ordenador tratada como un único contenedor. **Su contenido puede variar en función de la operación del usuario.**
+-   Proporcionan una forma de etiquetar los datos con un **nombre descriptivo**, para que nuestros programas puedan ser entendidos más claramente por el lector y por nosotros mismos.
+-   Es útil pensar en las *variables* como **contenedores** que almacenan información.
+
+## Variables 🐍
+
+``` {.python code-line-numbers="2,3"}
+print("Hola Mundo")
+edad = 20
+print(edad)
+```
+
+- Los nombres de variables se escriben en minúscula
+
+::: {.fragment}
+``` {.python code-line-numbers="4,5"}
+print("Hola Mundo")
+edad = 20
+print(edad)
+altura = 1.76
+print(altura)
+```
+:::
+
+- Separamos multiples palabras usando guion bajo (👉 _ ) p. ej. `primer_nombre`
+
+::: {.fragment}
+
+``` {.python code-line-numbers="6,7"}
+print("Hola Mundo")
+edad = 20
+print(edad)
+altura = 1.76
+print(altura)
+primer_nombre = "Kevin"
+print(primer_nombre)
+```
+
+:::
+
+## Recibir entradas
+
+## Tipos en Python
+
+- Enteros `int`
+- Decimales o Flotantes `float`
+- Cadena de caracteres `str`
+- Verdadero o Falso `bool`
+
